@@ -1,7 +1,7 @@
 {
   "name": "catherinesean",
   "version": "0.1.0",
-  "homepage": "https://rachelrondon.github.io/wedding-december-2021",
+  "homepage": "https://rachelrondon.github.io/wedding-december-2021/src/app.js",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.14",
@@ -17,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
